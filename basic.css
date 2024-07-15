@@ -1,0 +1,13 @@
+.container >div{
+border: 0.5px solid aquamarine;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.container>div>img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+
+}

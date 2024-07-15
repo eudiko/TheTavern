@@ -21,7 +21,7 @@ nav ul li a {
 }
 
 a:link {
-  color: black;
+  color: whitesmoke;
 }
 a:hover {
   color: aquamarine;
@@ -35,10 +35,10 @@ main{
 }
 
 .imagegallary{
-    
+
     padding: 50px;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 .image{
     flex: 0 0 220px;
@@ -52,11 +52,12 @@ main{
 
 .about {
     display: flex;
-    /*border: 5px solid black;*/
+    /*kborder: 5px solid black;*/
     margin: 5px auto;
     width: 70%;
     height: auto;
     justify-content: center;  
+    flex-wrap: wrap;
  }
 
 figcaption{
